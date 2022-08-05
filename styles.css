@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,300;1,400&display=swap');
+
+
 :root{
 /* colors */
     --bg-dk:#1f2937;
     --bg-secondary: #3882f6;
     --fc-primary: #f9faf8;
-    --fc-light: #e5e7eb;
+    --fc-light: #E5E7EB;
 /* font sizes */
     --fs-lg: 48px;
     --fs-md: 36px;
@@ -61,10 +64,12 @@
 .header-info h1{
     font-size: var(--fs-lg);
     color: var(--fc-primary);
+    font-weight: 800;
 
 }
 .header-info p{
     font-size:var(--fs-sm);
+    font-weight: 400;
     color:var(--fc-light);
     margin-bottom: 8px;
 }
@@ -76,4 +81,36 @@
     padding: 4px 24px;
     font-size: var(--fs-sm);
 }
+
+/* info card section */
+
+.info-section{
+    text-align:center;
+    padding: 32px 0 48px 0;
+}
+
+.info-section h2{
+    font-weight:800;
+    font-size: var(--fs-md);
+}
+
+.card-container{
+    justify-content: center;
+    align-items: center;
+    margin: 32px  auto 48px auto;
+}
+
+.info-card{
+    margin-right: 32px;
+    width: 150px;
+    color: var(--bg-dk);
+    font-size: var(--fs-sm);
+}
+
+.info-card img{
+    border: 3px solid var(--bg-secondary);
+    border-radius: 5px;
+}
+
+/* blockquote section */
 
