@@ -113,4 +113,20 @@
 }
 
 /* blockquote section */
+figure{
+    background-color: var(--fc-light);
+}
 
+blockquote{
+    font-size: var(--fs-md);
+    font-weight: lighter;
+    font-style:italic;
+    padding: 48px;
+    margin: 0 auto;
+}
+cite{
+    color: var(--bg-dk);
+    font-size: var(--fs-sm);
+    font-weight: 800;
+    margin-left: 75%;
+}
